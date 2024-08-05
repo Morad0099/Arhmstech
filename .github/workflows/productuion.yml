@@ -20,7 +20,7 @@ jobs:
           debug: true
           use_insecure_cipher: true
           script: |
-           cd domains/ahmstech.com/Arhmstech
+           cd domains/ahmstech.com
            php artisan down
            git checkout master
            git pull origin master
